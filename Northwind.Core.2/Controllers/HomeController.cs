@@ -8,9 +8,6 @@ namespace Northwind.Core._2.Controllers
 {
     public class HomeController : Controller
     {
-        public String Index()
-        {
-            return "This is Lambda";
-        }
+        public ActionResult Index() => View();
     }
 }
